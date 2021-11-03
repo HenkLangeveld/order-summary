@@ -1,0 +1,25 @@
+{
+  "name": "order-summary",
+  "version": "1.0.0",
+  "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "./bin/build-css",
+    "start": "./bin/watch-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenkLangeveld/order-summary.git"
+  },
+  "author": "Henk Langeveld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenkLangeveld/order-summary/issues"
+  },
+  "homepage": "https://github.com/HenkLangeveld/order-summary#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.14"
+  }
+}
