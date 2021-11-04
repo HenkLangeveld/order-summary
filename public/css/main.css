@@ -16,4 +16,18 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #f5f7ff; }
+  background-color: #e0e8ff; }
+
+img {
+  width: 100%; }
+
+.card {
+  width: 89%;
+  min-height: 570px;
+  margin: 70px auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden; }
+
+.icon {
+  width: 48px; }

@@ -24,5 +24,22 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: $neutral-very-pale;
+  background-color: $primary-pale;
+}
+
+img {
+  width: 100%;
+}
+
+.card {
+  width: 89%;
+  min-height: 570px;
+  margin: 70px auto;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.icon {
+  width: 48px;
 }
