@@ -7,7 +7,8 @@
 
 html {
   font-family: "Red Hat Display", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #7280a7; }
 
 body {
   width: 100vw;
@@ -16,18 +17,50 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #e0e8ff; }
+  background-color: #e0e8ff;
+  padding-top: 70px; }
 
 img {
   width: 100%; }
 
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer; }
+
+h1,
+p {
+  text-align: center; }
+
+h1 {
+  color: black; }
+
 .card {
-  width: 89%;
+  width: 87%;
+  max-width: 334px;
   min-height: 570px;
-  margin: 70px auto;
+  margin: 0 auto;
   background-color: white;
   border-radius: 20px;
   overflow: hidden; }
 
 .icon {
   width: 48px; }
+
+.plan {
+  background-color: #f5f7ff;
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  gap: 19px;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-radius: 15px; }
+  .plan span {
+    color: #7280a7;
+    font-weight: 700; }
+  .plan button {
+    margin-left: auto;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #3829e0; }
