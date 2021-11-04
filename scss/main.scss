@@ -26,12 +26,19 @@ html {
 body {
   width: 100vw;
   min-height: 100vh;
-  background-image: url(../images/illustration-hero.svg);
-  background-position: center;
+  background-image: url(../../images/pattern-background-mobile.svg);
+  background-position: top/center;
   background-repeat: no-repeat;
-  background-size: cover;
+  // background-size: cover;
   background-color: $primary-pale;
-  padding-top: 70px;
+  padding: 70px 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 img {
@@ -99,7 +106,7 @@ p {
   width: 87%;
   max-width: 450px;
   min-height: 567px;
-  margin: 0 auto;
+  margin: 0 auto 70px;
   background-color: white;
   border-radius: 20px;
   overflow: hidden;
@@ -151,6 +158,7 @@ p {
 
 @media (min-width: 400px) {
   body {
+    background-image: url(../../images/pattern-background-desktop.svg);
     padding-top: 90px;
   }
 
