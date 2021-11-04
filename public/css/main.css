@@ -43,10 +43,17 @@ img {
     border-radius: 15px;
     padding: 16px;
     margin-bottom: 25px;
-    box-shadow: 0 10px 40px rgba(56, 41, 224, 0.4); }
+    box-shadow: 0 10px 40px rgba(56, 41, 224, 0.4);
+    transition: background-color 300ms; }
+    .button--primary:active {
+      text-decoration: none;
+      background-color: rgba(56, 41, 224, 0.7); }
   .button--cancel {
     color: #7280a7;
-    font-weight: 900; }
+    font-weight: 900;
+    transition: color 300ms; }
+    .button--cancel:hover {
+      color: #1f2f56; }
 
 h1,
 p {
@@ -96,4 +103,8 @@ p {
     text-decoration: underline;
     color: #3829e0;
     font-size: 0.8rem;
-    letter-spacing: normal; }
+    letter-spacing: normal;
+    transition: color 200ms; }
+    .plan button:hover {
+      text-decoration: none;
+      color: rgba(56, 41, 224, 0.7); }
