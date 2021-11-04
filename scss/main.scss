@@ -29,7 +29,7 @@ body {
   background-image: url(../../images/pattern-background-mobile.svg);
   background-position: top/center;
   background-repeat: no-repeat;
-  // background-size: cover;
+  background-size: 100% auto;
   background-color: $primary-pale;
   padding: 70px 0;
 }
@@ -156,7 +156,7 @@ p {
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
   body {
     background-image: url(../../images/pattern-background-desktop.svg);
     padding-top: 90px;

@@ -20,6 +20,7 @@ body {
   background-image: url(../../images/pattern-background-mobile.svg);
   background-position: top/center;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   background-color: #e0e8ff;
   padding: 70px 0; }
 
@@ -113,7 +114,7 @@ p {
       text-decoration: none;
       color: rgba(56, 41, 224, 0.7); }
 
-@media (min-width: 400px) {
+@media (min-width: 450px) {
   body {
     background-image: url(../../images/pattern-background-desktop.svg);
     padding-top: 90px; }
