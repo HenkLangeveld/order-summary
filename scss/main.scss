@@ -55,7 +55,7 @@ img {
   &--primary {
     background-color: $primary-blue;
     color: white;
-    border-radius: 15px;
+    border-radius: 13px;
     padding: 16px;
     margin-bottom: 25px;
     box-shadow: 0 10px 40px rgba($primary-blue, 0.4);
@@ -97,7 +97,7 @@ p {
 
 .card {
   width: 87%;
-  max-width: 334px;
+  max-width: 450px;
   min-height: 567px;
   margin: 0 auto;
   background-color: white;
@@ -109,7 +109,7 @@ p {
   }
 
   &__image {
-    height: 160px;
+    // height: 160px;
   }
 }
 
@@ -138,13 +138,46 @@ p {
     margin-left: auto;
     text-decoration: underline;
     color: $primary-blue;
-    font-size: 0.8rem;
+    font-size: 0.8em;
     letter-spacing: normal;
     transition: color 200ms;
 
     &:hover {
       text-decoration: none;
       color: rgba($primary-blue, 0.7);
+    }
+  }
+}
+
+@media (min-width: 400px) {
+  body {
+    padding-top: 90px;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  .card {
+    &__information {
+      padding: 40px 50px 48px;
+    }
+
+    .plan {
+      font-size: 1.05rem;
+      padding: 21px 20px 26px;
+      margin-bottom: 33px;
+    }
+  }
+
+  .button {
+    &--primary {
+      margin-bottom: 32px;
     }
   }
 }
