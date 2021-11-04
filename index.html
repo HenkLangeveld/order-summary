@@ -38,27 +38,33 @@
   </head>
   <body>
     <div class="card">
-      <img
-        src="./images/illustration-hero.svg"
-        alt="Graphic of person with long hair with headphones on her head and a mobile device in her hand. Music notes in the background."
-      />
-      <h1>Order Summary</h1>
-
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-
-      <div class="plan">
-        <div class="icon">
-          <img src="./images/icon-music.svg" alt="Circle with music note" />
-        </div>
-        <div class="plan__info"><span>Annual Plan</span><br />$59.99/year</div>
-        <button>Change</button>
+      <div class="card__image">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="Graphic of person with long hair with headphones on her head and a mobile device in her hand. Music notes in the background."
+        />
       </div>
+      <div class="card__information">
+        <h1>Order Summary</h1>
 
-      <button>Proceed to Payment</button>
-      <button>Cancel Order</button>
+        <p>
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <section class="plan">
+          <div class="icon">
+            <img src="./images/icon-music.svg" alt="Circle with music note" />
+          </div>
+          <div class="plan__info">
+            <span>Annual Plan</span><br />$59.99/year
+          </div>
+          <button class="button">Change</button>
+        </section>
+
+        <button class="button button--primary">Proceed to Payment</button>
+        <button class="button button--cancel">Cancel Order</button>
+      </div>
     </div>
 
     <div class="attribution">

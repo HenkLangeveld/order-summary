@@ -12,6 +12,11 @@ $neutral-dark: hsl(223, 47%, 23%);
   box-sizing: border-box;
 }
 
+*:focus {
+  outline-offset: 4px;
+  outline-color: $primary-blue;
+}
+
 html {
   font-family: "Red Hat Display", sans-serif;
   font-size: 16px;
@@ -33,10 +38,33 @@ img {
   width: 100%;
 }
 
-button {
+.button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  &:focus {
+  }
+
+  &--primary {
+    background-color: $primary-blue;
+    color: white;
+    border-radius: 15px;
+    padding: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 40px rgba($primary-blue, 0.4);
+  }
+
+  &--cancel {
+    color: $neutral-blue;
+    font-weight: 900;
+  }
 }
 
 h1,
@@ -45,42 +73,60 @@ p {
 }
 
 h1 {
-  color: black;
+  color: $neutral-dark;
+  font-size: 1.4rem;
+  margin-bottom: 19px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 23px;
 }
 
 .card {
   width: 87%;
   max-width: 334px;
-  min-height: 570px;
+  min-height: 567px;
   margin: 0 auto;
   background-color: white;
   border-radius: 20px;
   overflow: hidden;
+
+  &__information {
+    padding: 31px 25px;
+  }
+
+  &__image {
+    height: 160px;
+  }
 }
 
 .icon {
   width: 48px;
+  height: 48px;
 }
 
 .plan {
   background-color: $neutral-very-pale;
-  width: 85%;
-  margin: 0 auto;
+  margin: 0 auto 25px;
   display: flex;
   gap: 19px;
-  padding: 1rem;
+  padding: 21px 1rem 13px;
   font-size: 0.9rem;
   border-radius: 15px;
 
   span {
-    color: $neutral-blue;
+    color: $neutral-dark;
     font-weight: 700;
+    line-height: 1.5;
   }
 
   button {
+    width: auto;
     margin-left: auto;
     text-decoration: underline;
-    font-weight: 700;
     color: $primary-blue;
+    font-size: 0.8rem;
+    letter-spacing: normal;
   }
 }
